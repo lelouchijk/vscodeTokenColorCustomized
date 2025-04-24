@@ -47,15 +47,15 @@
       },
       {
         "scope": ["variable", "meta.variable", "variable.other.readwrite"],
-        "settings": { "foreground": "#95fff4" } //done  95fff4  instance
+        "settings": { "foreground": "#95fff4" } 
       },
       {
         "scope": ["entity.name.function", "support.function"],
-        "settings": { "foreground": "#fdff87" } //done
+        "settings": { "foreground": "#fdff87" } 
       },
       {
         "scope": ["entity.name.type", "support.class"],
-        "settings": { "foreground": "#6ad5ff" } //done class 6ad5ff
+        "settings": { "foreground": "#6ad5ff" } 
       },
       {
         "scope": ["keyword"],
@@ -66,34 +66,34 @@
       },
       {
         "scope": ["keyword.control", "storage.type"],
-        "settings": { "foreground": "#00C5C9" } //done 00C5C9
+        "settings": { "foreground": "#00C5C9" } 
       },
       {
         "scope": ["comment.line.double-slash", "comment.block"],
-        "settings": { "foreground": "#6d6d6d", "fontStyle": "italic" } // done
+        "settings": { "foreground": "#6d6d6d", "fontStyle": "italic" } 
       },
       {
         "scope": ["constant.numeric"],
-        "settings": { "foreground": "#98C568" } //done
+        "settings": { "foreground": "#98C568" } 
       },
       {
         "scope": ["constant.language.boolean"],
-        "settings": { "foreground": "#ff0000" } //i couldn't find this relate value
+        "settings": { "foreground": "#ff0000" } //i couldn't find this relative value
       },
       {
         "scope": ["keyword.operator", "keyword.operator.assignment"],
-        "settings": { "foreground": "#c8c8c8" } //done
+        "settings": { "foreground": "#c8c8c8" } 
       },
       {
         "scope": ["punctuation.separator", "punctuation.terminator"],
-        "settings": { "foreground": "#d6d6d6" } //it is ok : ;
+        "settings": { "foreground": "#d6d6d6" } 
       },
       {
         "scope": ["keyword.control.flow"],
-        "settings": { "foreground": "#62d0d2" } //4ac4c6 done 62d0d2
+        "settings": { "foreground": "#62d0d2" } 
       },
       {
-        "scope": ["support.type", "support.constant"], //done
+        "scope": ["support.type", "support.constant"], 
         "settings": { "foreground": "#99FF87" }
         // 9bdcff
       },
@@ -106,11 +106,11 @@
           "meta.function.python",
           "meta.function-call.arguments.python"
         ],
-        "settings": { "foreground": "#319f9f" } // done E5C07B
+        "settings": { "foreground": "#319f9f" } 
       },
       {
         "scope": ["support.module", "entity.name.namespace"],
-        "settings": { "foreground": "#94C4D5" } //done
+        "settings": { "foreground": "#94C4D5" } 
       },
       {
         "scope": [
@@ -118,11 +118,11 @@
           "storage.type.annotation",
           "meta.decorator"
         ],
-        "settings": { "foreground": "#6d6d6d" } // done default = #ff8484
+        "settings": { "foreground": "#6d6d6d" } 
       },
       {
         "scope": ["meta.generic", "entity.name.type.parameters"],
-        "settings": { "foreground": "#ff6464" } // couldn't find this  88C0D0
+        "settings": { "foreground": "#ff6464" } 
       },
       {
         "scope": [
@@ -130,11 +130,11 @@
           "meta.import",
           "keyword.other.package"
         ],
-        "settings": { "foreground": "#00fff2" } // done import
+        "settings": { "foreground": "#00fff2" } 
       },
       {
         "scope": ["variable.language.this", "variable.language.self"],
-        "settings": { "foreground": "#ff5c5c" } //done E06C75
+        "settings": { "foreground": "#ff5c5c" } 
       },
       {
         "scope": ["keyword.control.flow.await", "keyword.control.yield"],
@@ -142,12 +142,12 @@
       },
       {
         "scope": ["invalid.illegal", "invalid.deprecated"],
-        "settings": { "foreground": "#fffefe" } //done
+        "settings": { "foreground": "#fffefe" } 
       },
       {
         "scope": "meta.object-literal.key.js",
         "settings": {
-          "foreground": "#FFD700" // Gold for shorthand property keys
+          "foreground": "#FFD700" 
         }
       }
     ]
