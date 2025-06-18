@@ -3,21 +3,26 @@
 ## I've had terrible experiences with the token color of every free VScode extension
 ## So i have decided to alter the token colors myself with the help of my graphic designer 
 
-### You can copy and paste this format to your vscode > settings.json file
+### You can copy and paste this format to your vscode > settings.json 
 ### Hoping you guys enjoy the colors 
-
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "GitHub Dark Default",
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": ["string.quoted.double", "string.quoted.single"],
-        "settings": { "foreground": "#7FFFA2" } //done #63C67D
+        "settings": { "foreground": "#7FFFA2" } 
+      },
+      {
+        "scope": ["constant"],
+        "settings": { "foreground": "#f79246" }
+      },
+      {
+        "scope": ["comment.line.double-slash", "comment.block"],
+        "settings": { "foreground": "#6d6d6d", "fontStyle": "italic" }
       },
       {
         "scope": ["support.type.property-name.json"],
-        "settings": { "foreground": "#a0f7ed" } //done
+        "settings": { "foreground": "#a0f7ed" } 
       },
       {
         "scope": [
@@ -30,7 +35,15 @@
           "variable.other.property"
         ],
         "settings": {
-          "foreground": "#0094cf"
+          "foreground": "#6ad5ff" 
+        }
+      },
+      {
+        "scope":[
+          "entity.name.tag.html",
+        ],
+        "settings": {
+          "foreground": "#EB4717",
         }
       },
       {
@@ -51,16 +64,16 @@
       },
       {
         "scope": ["entity.name.function", "support.function"],
-        "settings": { "foreground": "#fdff87" } 
+        "settings": { "foreground": "#fdff87" } //done
       },
       {
         "scope": ["entity.name.type", "support.class"],
-        "settings": { "foreground": "#6ad5ff" } 
+        "settings": { "foreground": "#0094cf" }
       },
       {
         "scope": ["keyword"],
         "settings": {
-          "foreground": "#e7e59e",
+          "foreground": "#f59043",
           "fontStyle": "bold"
         }
       },
@@ -69,31 +82,27 @@
         "settings": { "foreground": "#00C5C9" } 
       },
       {
-        "scope": ["comment.line.double-slash", "comment.block"],
-        "settings": { "foreground": "#6d6d6d", "fontStyle": "italic" } 
-      },
-      {
         "scope": ["constant.numeric"],
         "settings": { "foreground": "#98C568" } 
       },
       {
         "scope": ["constant.language.boolean"],
-        "settings": { "foreground": "#ff0000" } //i couldn't find this relative value
+        "settings": { "foreground": "#ff0000" } 
       },
       {
         "scope": ["keyword.operator", "keyword.operator.assignment"],
-        "settings": { "foreground": "#c8c8c8" } 
+        "settings": { "foreground": "#c8c8c8" }
       },
       {
         "scope": ["punctuation.separator", "punctuation.terminator"],
-        "settings": { "foreground": "#d6d6d6" } 
+        "settings": { "foreground": "#d6d6d6" }
       },
       {
         "scope": ["keyword.control.flow"],
         "settings": { "foreground": "#62d0d2" } 
       },
       {
-        "scope": ["support.type", "support.constant"], 
+        "scope": ["support.type", "support.constant"],
         "settings": { "foreground": "#99FF87" }
         // 9bdcff
       },
@@ -138,7 +147,7 @@
       },
       {
         "scope": ["keyword.control.flow.await", "keyword.control.yield"],
-        "settings": { "foreground": "#000000" } //couldn't find this
+        "settings": { "foreground": "#000000" } 
       },
       {
         "scope": ["invalid.illegal", "invalid.deprecated"],
@@ -148,6 +157,13 @@
         "scope": "meta.object-literal.key.js",
         "settings": {
           "foreground": "#FFD700" 
+        }
+      },
+      {
+        "scope":["entity.name.tag"],
+        "settings":{
+          "foreground": "#B7EB40",
+          "fontStyle": "bold"
         }
       }
     ]
