@@ -7,7 +7,7 @@
 ### Hoping you guys enjoy the colors 
 
 ``` json
-  "editor.tokenColorCustomizations": {
+    "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": ["string.quoted.double", "string.quoted.single"],
@@ -25,6 +25,7 @@
         "scope": ["support.type.property-name.json"],
         "settings": { "foreground": "#a0f7ed" } 
       },
+
       {
         "scope": [
           "variable.other.declaration.go",
@@ -42,11 +43,14 @@
       {
         "scope":[
           "entity.name.tag.html",
+
         ],
         "settings": {
           "foreground": "#EB4717",
+
         }
       },
+
       {
         "scope": [
           "entity.name.variable.local.go",
@@ -82,6 +86,7 @@
         "scope": ["keyword.control", "storage.type"],
         "settings": { "foreground": "#00C5C9" } 
       },
+
       {
         "scope": ["constant.numeric"],
         "settings": { "foreground": "#98C568" } 
@@ -160,6 +165,7 @@
           "foreground": "#FFD700" 
         }
       },
+
       {
         "scope":["entity.name.tag"],
         "settings":{
