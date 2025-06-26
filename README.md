@@ -69,7 +69,7 @@
       },
       {
         "scope": ["entity.name.function", "support.function"],
-        "settings": { "foreground": "#fdff87" } //done
+        "settings": { "foreground": "#fdff87" }
       },
       {
         "scope": ["entity.name.type", "support.class"],
@@ -110,7 +110,7 @@
       {
         "scope": ["support.type", "support.constant"],
         "settings": { "foreground": "#99FF87" }
-        // 9bdcff
+
       },
       {
         "scope": [
