@@ -6,6 +6,7 @@
 ### You can copy and paste this format to your vscode > settings.json 
 ### Hoping you guys enjoy the colors 
 
+``` json
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
